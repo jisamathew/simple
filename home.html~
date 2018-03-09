@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+<style>
+    img{
+        float:right;
+    }
+</style>
+
+</head>
+    
+<body>
+<form>
+<header>
+   <a href="image/im2.jpg" target="myframe"> <img src="image/im2.jpg" alt="Smiley face" width="42" height="42"></a>
+<h1>My Profile</h1>
+</header>
+<div class="container">
+<div class="btn-group">
+   <button><a href="home.html" >Home</a></button>
+  <button><a href="career.html" target="myframe"> Career Objective</a></button>
+  <button> <a href="profession.html" target="myframe">Professional Experience</a></button>
+  <button><a href="edu.html" target="myframe">Educational Qualifications</a></button>
+  <button><a href="tech.html" target="myframe">Technical Skills</a></button>
+  <button><a href="skill.html" target="myframe">Personal Skills</a></button>
+  <button><a href="pjts.html" target="myframe">Academic Projects</a></button>
+  <button><a href="cert.html" target="myframe">Acheivements/Certifications</a></button>
+  <button><a href="exp.html" target="myframe">Volunteer Experience</a></button>
+  <button><a href="profile.html" target="myframe">Personal Profile</a></button>
+</div>
+<iframe src="image/img1.jpg" name="myframe" width="1300px" height="792px"></iframe>
+</div>
+<footer align="center">
+    <a href="#" >Home</a>
+</footer>
+</form>
+</body>
+</html>

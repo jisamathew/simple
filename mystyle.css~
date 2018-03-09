@@ -1,0 +1,31 @@
+
+h1 {
+    color: black;
+    text-align:center;
+    }
+
+body {
+    background-color: darkgrey;
+}
+a{
+    color:white;
+    text-decoration: none;
+    font-weight:bold;
+}
+a:hover {
+    background-color: #111;
+}
+.btn-group button {
+    background-color: black; /* background */
+    border: 1px solid white; /*  border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+    width:20%;
+}
+
+table, th, td {
+   border: 1px solid black;
+   align:center;
+}
